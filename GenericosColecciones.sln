@@ -9,11 +9,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodoGenerico", "MetodoGen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaGenericos", "PruebaGenericos\PruebaGenericos.csproj", "{3762F795-3FA6-4683-B259-812B8028747A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaGenericosRestricciones", "PruebaGenericosRestricciones\PruebaGenericosRestricciones.csproj", "{2AA6681E-A4F6-4CD9-8FA1-0E6A3A1F323B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaGenericosRestricciones", "PruebaGenericosRestricciones\PruebaGenericosRestricciones.csproj", "{2AA6681E-A4F6-4CD9-8FA1-0E6A3A1F323B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaMaximo", "PruebaMaximo\PruebaMaximo.csproj", "{3CC4FB41-EED0-426A-B278-03FBA9141721}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaMaximo", "PruebaMaximo\PruebaMaximo.csproj", "{3CC4FB41-EED0-426A-B278-03FBA9141721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaArrayList", "PruebaArrayList\PruebaArrayList.csproj", "{1DE6203D-46FC-41FF-8A70-0246B58170D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaArrayList", "PruebaArrayList\PruebaArrayList.csproj", "{1DE6203D-46FC-41FF-8A70-0246B58170D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaBitArray", "PruebaBitArray\PruebaBitArray.csproj", "{FE754E77-22E1-45A5-B574-467065C4256B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaHashtable", "PruebaHashtable\PruebaHashtable.csproj", "{902A3A44-7CFB-485F-B2CA-F1F26F0C0002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaQueue", "PruebaQueue\PruebaQueue.csproj", "{FEFF10C5-3B5B-43AA-9FC4-988349AEEA44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaSortedList", "PruebaSortedList\PruebaSortedList.csproj", "{C933579C-23E1-4773-9863-8DA88106A5FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaStack", "PruebaStack\PruebaStack.csproj", "{4340E4DF-9142-4183-B757-31D6723012D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +55,26 @@ Global
 		{1DE6203D-46FC-41FF-8A70-0246B58170D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DE6203D-46FC-41FF-8A70-0246B58170D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DE6203D-46FC-41FF-8A70-0246B58170D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE754E77-22E1-45A5-B574-467065C4256B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE754E77-22E1-45A5-B574-467065C4256B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE754E77-22E1-45A5-B574-467065C4256B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE754E77-22E1-45A5-B574-467065C4256B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902A3A44-7CFB-485F-B2CA-F1F26F0C0002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902A3A44-7CFB-485F-B2CA-F1F26F0C0002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902A3A44-7CFB-485F-B2CA-F1F26F0C0002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902A3A44-7CFB-485F-B2CA-F1F26F0C0002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFF10C5-3B5B-43AA-9FC4-988349AEEA44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFF10C5-3B5B-43AA-9FC4-988349AEEA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFF10C5-3B5B-43AA-9FC4-988349AEEA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFF10C5-3B5B-43AA-9FC4-988349AEEA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C933579C-23E1-4773-9863-8DA88106A5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C933579C-23E1-4773-9863-8DA88106A5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C933579C-23E1-4773-9863-8DA88106A5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C933579C-23E1-4773-9863-8DA88106A5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4340E4DF-9142-4183-B757-31D6723012D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4340E4DF-9142-4183-B757-31D6723012D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4340E4DF-9142-4183-B757-31D6723012D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4340E4DF-9142-4183-B757-31D6723012D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
