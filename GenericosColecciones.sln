@@ -15,15 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaMaximo", "PruebaMaxim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaArrayList", "PruebaArrayList\PruebaArrayList.csproj", "{1DE6203D-46FC-41FF-8A70-0246B58170D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaBitArray", "PruebaBitArray\PruebaBitArray.csproj", "{FE754E77-22E1-45A5-B574-467065C4256B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaBitArray", "PruebaBitArray\PruebaBitArray.csproj", "{FE754E77-22E1-45A5-B574-467065C4256B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaHashtable", "PruebaHashtable\PruebaHashtable.csproj", "{902A3A44-7CFB-485F-B2CA-F1F26F0C0002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaHashtable", "PruebaHashtable\PruebaHashtable.csproj", "{902A3A44-7CFB-485F-B2CA-F1F26F0C0002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaQueue", "PruebaQueue\PruebaQueue.csproj", "{FEFF10C5-3B5B-43AA-9FC4-988349AEEA44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaQueue", "PruebaQueue\PruebaQueue.csproj", "{FEFF10C5-3B5B-43AA-9FC4-988349AEEA44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaSortedList", "PruebaSortedList\PruebaSortedList.csproj", "{C933579C-23E1-4773-9863-8DA88106A5FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaSortedList", "PruebaSortedList\PruebaSortedList.csproj", "{C933579C-23E1-4773-9863-8DA88106A5FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaStack", "PruebaStack\PruebaStack.csproj", "{4340E4DF-9142-4183-B757-31D6723012D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaStack", "PruebaStack\PruebaStack.csproj", "{4340E4DF-9142-4183-B757-31D6723012D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuentaPalabras", "CuentaPalabras\CuentaPalabras.csproj", "{6C3B632D-FAF5-4C92-995C-9557CA072163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaColeccionesGenericas", "PruebaColeccionesGenericas\PruebaColeccionesGenericas.csproj", "{909A5498-D9A8-4AEB-BF55-91D103FAFECA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{4340E4DF-9142-4183-B757-31D6723012D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4340E4DF-9142-4183-B757-31D6723012D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4340E4DF-9142-4183-B757-31D6723012D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3B632D-FAF5-4C92-995C-9557CA072163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3B632D-FAF5-4C92-995C-9557CA072163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3B632D-FAF5-4C92-995C-9557CA072163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3B632D-FAF5-4C92-995C-9557CA072163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909A5498-D9A8-4AEB-BF55-91D103FAFECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909A5498-D9A8-4AEB-BF55-91D103FAFECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909A5498-D9A8-4AEB-BF55-91D103FAFECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909A5498-D9A8-4AEB-BF55-91D103FAFECA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
