@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PruebaColeccionesGenericas
 {
-    internal class Punto : IComparable
+    internal class Punto : IComparable<Punto>
     {
         private int x;
         private int y;
@@ -17,9 +17,16 @@ namespace PruebaColeccionesGenericas
             this.y = py;
         }
 
-        public int CompareTo(object? obj)
+        public int CompareTo(Punto? b)
         {
-            throw new NotImplementedException();
+            double maga = Math.Sqrt(x * x + y * y);
+            double magb = Math.Sqrt(b.x * b.x + b.y * b.y);
+
+            if (maga > magb)
+                return 1;
+            if(maga < magb)
+                return -1;
+            return 0;
         }
 
         public override string ToString()
