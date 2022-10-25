@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CuentaPalabras", "CuentaPal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaColeccionesGenericas", "PruebaColeccionesGenericas\PruebaColeccionesGenericas.csproj", "{909A5498-D9A8-4AEB-BF55-91D103FAFECA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaLinkedList", "PruebaLinkedList\PruebaLinkedList.csproj", "{6C5542B3-4B6D-4CFD-98DE-F15513A2BD21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaLinkedList", "PruebaLinkedList\PruebaLinkedList.csproj", "{6C5542B3-4B6D-4CFD-98DE-F15513A2BD21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaLambda", "PruebaLambda\PruebaLambda.csproj", "{AFB73207-8F82-4E0F-9839-E2AC828A2864}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{6C5542B3-4B6D-4CFD-98DE-F15513A2BD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C5542B3-4B6D-4CFD-98DE-F15513A2BD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C5542B3-4B6D-4CFD-98DE-F15513A2BD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB73207-8F82-4E0F-9839-E2AC828A2864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB73207-8F82-4E0F-9839-E2AC828A2864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB73207-8F82-4E0F-9839-E2AC828A2864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB73207-8F82-4E0F-9839-E2AC828A2864}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
