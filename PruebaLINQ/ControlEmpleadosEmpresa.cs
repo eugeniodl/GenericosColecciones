@@ -22,6 +22,51 @@ namespace PruebaLINQ
             listaEmpresas.Add(new Empresa { Id = 4, Nombre = "Apple"});
             listaEmpleados.Add(new Empleado { Id = 1, Nombre = "Owen Espinoza", Cargo= "CEO", EmpresaId = 1, Salario = 15000});
             listaEmpleados.Add(new Empleado { Id = 2, Nombre = "Diana Chavarría", Cargo= "CEO", EmpresaId = 2, Salario = 15000});
+            listaEmpleados.Add(new Empleado { Id = 3, Nombre = "Félix Ruiz", Cargo= "Administrador", EmpresaId = 3, Salario = 15000});
+            listaEmpleados.Add(new Empleado { Id = 4, Nombre = "Lizet López", Cargo= "Secretaria", EmpresaId = 4, Salario = 5000});
+            listaEmpleados.Add(new Empleado { Id = 5, Nombre = "Juan Pérez", Cargo= "Ingeniero", EmpresaId = 1, Salario = 10000});
+            listaEmpleados.Add(new Empleado { Id = 6, Nombre = "Diana Alvarado", Cargo= "Electricista", EmpresaId = 2, Salario = 1500});
+        }
+
+        public void ObtenerCEO()
+        {
+            IEnumerable<Empleado> ceos = from empleado in listaEmpleados
+                                         where empleado.Cargo == "CEO"
+                                         select empleado;
+            foreach(Empleado empleado in ceos)
+                Console.WriteLine(empleado);
+        }
+
+        public void ObtenerEmpleadosEmpresa(int Id)
+        {
+            var empleados = from empleado in listaEmpleados
+                            join empresa in listaEmpresas
+                            on empleado.EmpresaId equals empresa.Id
+                            where empresa.Id == Id
+                            select empleado;
+            foreach(Empleado empleado in empleados)
+                Console.WriteLine(empleado);
+        }
+
+        public void ObtenerEmpleadosEmpresa(string emp)
+        {
+            var empleados = from empleado in listaEmpleados
+                            join empresa in listaEmpresas
+                            on empleado.EmpresaId equals empresa.Id
+                            where empresa.Nombre == emp
+                            select empleado;
+            foreach (Empleado empleado in empleados)
+                Console.WriteLine(empleado);
+        }
+
+        public void ObtenerSalarioMenor15000()
+        {
+            IEnumerable<Empleado> empleados = from empleado in listaEmpleados
+                                              orderby empleado.Nombre descending
+                                         where empleado.Salario < 15000
+                                         select empleado;
+            foreach (Empleado empleado in empleados)
+                Console.WriteLine(empleado);
         }
     }
 }
